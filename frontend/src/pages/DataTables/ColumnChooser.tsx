@@ -33,7 +33,7 @@ const ColumnChooser = () => {
     useEffect(() => {
         setPage(1);
     }, [pageSize]);
-    
+
     useEffect(() => {
         if (Array.isArray(initialRecords)) {
             const from = (page - 1) * pageSize;

@@ -66,6 +66,7 @@ const Levelincome = () => {
                 {/* Additional components for other levels */}
             </div>
             <div className="flex justify-between">
+          
                 <button type="button" className={`btn btn-primary ${activeTab === 1 ? 'hidden' : ''}`} onClick={() => setActiveTab(activeTab === 3 ? 2 : 1)}>
                     Back
                 </button>

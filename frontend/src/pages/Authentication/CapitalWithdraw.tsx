@@ -62,6 +62,7 @@ const CapitalWithdraw = () => {
     //         navigate('/capitalhistory');
     //     }
     // };
+
     const handleSubmit = async (e: any) => {
         e.preventDefault();
     
